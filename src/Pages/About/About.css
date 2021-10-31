@@ -1,0 +1,58 @@
+.about h5, .all-h5-tag{
+    text-align: center;
+    color: #2acb35;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Courgette', cursive;
+}
+.about-h1, .home-service-area h1, .natural-area h1, .heading-all-h1{
+    color: #404040;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 15px 0 17px 0;
+}
+.about p{
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    font-weight: 400
+}
+.about-h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #404040;
+    font-size: 24px;
+    line-height: 30px;
+}
+.about-img{
+    width: 80%;
+}
+
+@media (max-width: 991.98px) {
+    .about{
+        text-align: center;
+    }
+    .about-h1, .home-service-area h1, .natural-area h1, .heading-all-h1{
+        font-size: 20px;
+    }
+    .about-h5{
+        font-size: 18px;
+    }
+    .about-img{
+        margin-top: 30px;
+        
+    }
+}
+.all-button{
+    width: 150px;
+    font-weight: 600;
+    /* font-size: 14px; */
+    text-transform: uppercase;
+    transition: all 500ms ease;
+    background: #2acb35;
+    border: 2px solid #2acb35;
+    color: #ffffff;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Healthy Daily Life",
+        "description": "We're here to help you overcome the barriers in the way to a healthier.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/6.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Physical Activity",
+        "description": "Walking, running, dancing, swimming, yoga are a few physical activity.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Support & Motivation",
+        "description": "The relationship between the mind and body is complex.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Exercise Program",
+        "description": "You have to know which exercises are useful for which groups of muscles.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Balance Body Mind",
+        "description": "The best soluton of course is combining diet improvements together.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Improving Health",
+        "description": "The relationship between the mind and body is complex.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Personal Fitness",
+        "description": "You have to know which exercises are useful for which groups of muscles.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "First Hand Advice",
+        "description": "You have to know which exercises are useful for which groups of muscles.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/8.jpg"
+    }
+]

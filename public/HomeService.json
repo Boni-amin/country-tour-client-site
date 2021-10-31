@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Healthy Daily Life",
+        "description": "We're here to help you overcome the barriers in the way to a healthier.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/6.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Physical Activity",
+        "description": "Walking, running, dancing, swimming, yoga are a few physical activity.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Support & Motivation",
+        "description": "The relationship between the mind and body is complex.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Exercise Program",
+        "description": "The relationship between the mind and body is complex.Finding a workout is as easy as scrolling down, picking out the session that matches.",
+        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/4.jpg"
+    }
+]

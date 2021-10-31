@@ -1,0 +1,21 @@
+.banner-carousel-bgc{
+    background: rgba(34, 36, 38, 0.40);
+}
+.banner-carousle h5{
+    font-size: 25px;
+    color: #e9d80c;
+    font-family: 'Courgette', cursive;
+}
+.banner-carousle h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media (max-width: 991.98px){
+    .banner-carousle h1{
+    font-size: 28px;
+    }
+    .banner-carousle h5{
+        font-size: 20px;
+    }
+}

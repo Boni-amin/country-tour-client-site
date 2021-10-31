@@ -1,0 +1,48 @@
+.fotter{
+    background: #1c1e20;
+    padding: 35px 0 15px 0;
+    color: #888888;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fotter p{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.fotter ul {
+    float: right;
+    display: flex;
+}
+.fotter span{
+    color: #2acb35;
+}
+.fotter ul li{
+    font-size: 18px;
+    margin: 0 15px;
+    list-style: none;
+}
+.fotter ul li i {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #323232;
+    display: block;
+    border-radius: 50%;
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+    transition: all 500ms ease;
+}
+.fotter ul li:hover i{
+    background-color: #2acb35;
+    color: #fff;
+    border: 2px solid #2acb35;
+}
+@media (max-width: 991.98px){
+    .fotter ul {
+        margin-top: 20px;
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+}

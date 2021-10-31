@@ -1,0 +1,9 @@
+.service-card{
+    text-align: center;
+}
+.service-card h5{
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 13px 0 12px;
+}

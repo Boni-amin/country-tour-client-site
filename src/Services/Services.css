@@ -1,0 +1,17 @@
+.services-bg-img{
+    background-image: url(https://av.sc.com/sg/content/images/sg-travel-banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+.services-bg-img h1{
+    color: #404040;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
