@@ -1,50 +1,59 @@
 [
     {
         "id": 1,
-        "name": "Healthy Daily Life",
-        "description": "We're here to help you overcome the barriers in the way to a healthier.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/6.jpg"
+        "name": "London",
+        "price": "1500",
+        "description": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’",
+        "img": "https://www.flightexpert.com/blog/wp-content/uploads/2018/04/Top-places-to-visit-in-London.jpg"
     },
     {
         "id": 2,
-        "name": "Physical Activity",
-        "description": "Walking, running, dancing, swimming, yoga are a few physical activity.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/2.jpg"
+        "name": "Singapore",
+        "price": "1020",
+        "description": "Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.Modern Singapore was founded in 1819 by Sir Stamford Raffles as a trading post of the..",
+        "img": "https://image.shutterstock.com/image-photo/spectacular-skyline-singapore-night-260nw-1586742067.jpg"
     },
     {
         "id": 3,
-        "name": "Support & Motivation",
-        "description": "The relationship between the mind and body is complex.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/3.jpg"
+        "name": "Bangkok",
+        "price": "900",
+        "description": "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, ",
+        "img": "https://asiantourismbd.com/wp-content/uploads/2018/02/MarinaBaySingapore-1024x768-700x466.jpg"
     },
     {
         "id": 4,
-        "name": "Exercise Program",
-        "description": "You have to know which exercises are useful for which groups of muscles.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/4.jpg"
+        "name": "Russia",
+        "price": "900",
+        "description": "Russia, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, ",
+        "img": "https://i.ytimg.com/vi/bUEraFKHIlo/maxresdefault.jpg"
     },
     {
         "id": 5,
-        "name": "Balance Body Mind",
-        "description": "The best soluton of course is combining diet improvements together.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/5.jpg"
+        "name": "Eritrea",
+        "price": "1500",
+        "description": "Eritrea, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’",
+        "img": "https://cdn.britannica.com/78/155378-050-838B4322/Himalayas-Nepal.jpg"
     },
     {
         "id": 6,
-        "name": "Improving Health",
-        "description": "The relationship between the mind and body is complex.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/1.jpg"
+        "name": "Cambodia",
+        "price": "900",
+        "description": "Cambodia, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, ",
+        "img": "https://www.adb.org/sites/default/files/page/560361/images/nepal-overview-5.jpg"
     },
     {
         "id": 7,
-        "name": "Personal Fitness",
-        "description": "You have to know which exercises are useful for which groups of muscles.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/7.jpg"
+        "name": "China",
+        "price": "1020",
+        "description": "China, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.Modern Singapore was founded in 1819 by Sir Stamford Raffles as a trading post of the ..",
+        "img": "https://image.shutterstock.com/image-photo/st-basils-cathedral-moscow-on-260nw-653196580.jpg"
     },
     {
         "id": 8,
-        "name": "First Hand Advice",
-        "description": "You have to know which exercises are useful for which groups of muscles.Finding a workout is as easy as scrolling down, picking out the session that matches.",
-        "img": "http://st.ourhtmldemo.com/new/Healthcoach-Preview/images/services/8.jpg"
+        "name": "Albania",
+        "price": "900",
+        "description": "Albania, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, ",
+        "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/8538/production/_85940143_nepal_porter_g.jpg"
     }
+    
 ]

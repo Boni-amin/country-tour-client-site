@@ -7,6 +7,7 @@ const AddService = () => {
         register,
         handleSubmit,
         watch,
+        reset,
         formState: { errors },
       } = useForm();
       const onSubmit = (data) => {
@@ -17,7 +18,13 @@ const AddService = () => {
           body: JSON.stringify(data),
         })
           .then((res) => res.json())
-          .then((result) => console.log(result));
+          .then(data => {
+            if (data.name) {
+                alert('Successfully added the service.');
+            }
+        })
+        reset()
+        alert('Successfully added the service.');
       };
     return (
         <div>
@@ -30,7 +37,7 @@ const AddService = () => {
           className="p-2 m-2"
           {...register("name")}
           required
-          placeholder="Product name"
+          placeholder="Title"
         />
 
         {/* include validation with required or other standard HTML validation rules */}
