@@ -1,6 +1,5 @@
 import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
-import { ButtonGroup } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 import './ServiceDetails.css'
@@ -24,7 +23,7 @@ const ServiceDetails = () => {
 
     const handleAddToCart = (details) => {
         const data = details;
-        console.log(details)
+        console.log(details);
         data.email = user?.email;
         data.order = user?.displayName;
         fetch(`http://localhost:5000/addOrders`, {
@@ -36,9 +35,9 @@ const ServiceDetails = () => {
           .then((result) => {
             console.log(result);
             if (result.insertedId) {
-              alert("add hoise broooo ");
+              alert("Thans, Order success");
             } else {
-              alert("add korte pari nai");
+              alert("some problem");
             }
           });
       };
@@ -47,7 +46,7 @@ const ServiceDetails = () => {
         <div className="details-service my-5 py-md-5">
             <div className="container">
                 <div className="row">
-                    <h1 className="text-center heading-all-h1 mt-2">Details service</h1>
+                    <h1 className="text-center heading-all-h1 mt-2">Please Order</h1>
                     <div className="border p-3 d-md-flex justify-content-between details-description text-center">
                     <div className="col-md-4">
                         <img className="img-fluid" src={details?.img} alt="" />
@@ -58,7 +57,7 @@ const ServiceDetails = () => {
                         <h5 className="mt-2">Price: {details?.price}</h5>
                     </div>
                     </div>
-                    <div className="text-center"> <Button  onClick={() => handleAddToCart(details)} className="btn btn-success">Order</Button> </div>
+                    <div className="text-center mt-3"> <Button  onClick={() => handleAddToCart(details)} className="btn btn-success">Order</Button> </div>
                 </div>
             </div>
             

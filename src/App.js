@@ -13,6 +13,8 @@ import NewAccount from './Pages/NewAccount/NewAccount';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import AddService from './Pages/AddService/AddService';
+import MyOrder from './Pages/MyOrder/MyOrder';
+import ManageOrder from './Pages/ManageOrder/ManageOrder';
 
 function App() {
   return (
@@ -40,6 +42,12 @@ function App() {
             </Route>
             <Route path="/addservice">
                 <AddService></AddService>
+            </Route>
+            <Route path="/manageOrder">
+                <ManageOrder></ManageOrder>
+            </Route>
+            <Route path="/myorder">
+                <MyOrder></MyOrder>
             </Route>
             <Route path="/createaccount">
                 <NewAccount></NewAccount>
