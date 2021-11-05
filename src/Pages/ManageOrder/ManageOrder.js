@@ -6,13 +6,13 @@ const ManageOrder = () => {
     console.log(order)
     
     useEffect(() => {
-        fetch('http://localhost:5000/manageOrder/')
+        fetch('https://grisly-scarecrow-94073.herokuapp.com/manageOrder')
             .then(res => res.json())
             .then(data => setOrder(data));
     }, [control]);
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/delteOrderItem/${id}`, {
+        fetch(`https://grisly-scarecrow-94073.herokuapp.com/delteOrderItem/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

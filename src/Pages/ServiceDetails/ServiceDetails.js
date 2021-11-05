@@ -12,7 +12,7 @@ const ServiceDetails = () => {
     
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://grisly-scarecrow-94073.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServiceDetailsData(data));
     }, []);
@@ -26,7 +26,7 @@ const ServiceDetails = () => {
         console.log(details);
         data.email = user?.email;
         data.order = user?.displayName;
-        fetch(`http://localhost:5000/addOrders`, {
+        fetch(`https://grisly-scarecrow-94073.herokuapp.com/addOrders`, {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(data),

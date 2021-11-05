@@ -12,13 +12,13 @@ const MyOrder = () => {
     const [control, setControl] = useState(false);
   
     useEffect(() => {
-      fetch(`http://localhost:5000/myOrders/${email}`)
+      fetch(`https://grisly-scarecrow-94073.herokuapp.com/myOrders/${email}`)
         .then((res) => res.json())
         .then((data) => setServices(data));
     }, [control, email]);
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/delteOrderItem/${id}`, {
+        fetch(`https://grisly-scarecrow-94073.herokuapp.com/delteOrderItem/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
